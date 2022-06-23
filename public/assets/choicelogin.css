@@ -1,0 +1,191 @@
+<style>
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #ffffff;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ADD8E6;
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: absolute;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 500px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #D3D3D3;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+
+
+/*.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #000000;
+}
+.container .info span {
+  color: #000000;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #000000;
+}*/
+
+.client li button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: rgb(255,203,10);
+background: radial-gradient(circle, rgba(255,203,10,1) 0%, rgba(237,188,6,1) 30%, rgba(237,188,6,1) 36%, rgba(130,80,5,1) 100%);;/*pour le bouton login*/
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.client li button:hover,.form button:active,.form button:focus {
+  background: #000000;
+}
+
+.Manager li button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: rgb(255,203,10);
+background: radial-gradient(circle, rgba(255,203,10,1) 0%, rgba(237,188,6,1) 30%, rgba(237,188,6,1) 36%, rgba(130,80,5,1) 100%);;/*pour le bouton login*/
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.Manager li button:hover,.form button:active,.form button:focus {
+  background: #000000;
+}
+
+
+.admin li button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  background: rgb(255,203,10);
+background: radial-gradient(circle, rgba(255,203,10,1) 0%, rgba(237,188,6,1) 30%, rgba(237,188,6,1) 36%, rgba(130,80,5,1) 100%);/*pour le bouton login*/
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.admin li button:hover,.form button:active,.form button:focus {
+  background: #000000;
+}
+
+
+
+
+
+body {
+
+background: rgb(255,203,10);
+background: radial-gradient(circle, rgba(255,203,10,1) 0%, rgba(237,188,6,1) 30%, rgba(237,188,6,1) 36%, rgba(130,80,5,1) 100%);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
